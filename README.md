@@ -14,6 +14,8 @@ You are welcome to distribute, remix, and use these files for commercial purpose
 ##Sections
 <b>Datasheets</b>: Datasheets for all major parts on the board, including the nrf51822 and the MDBT40 module that it uses.
 
+<b>HW Design</b>: Schematics, board layouts, and other design files.
+
 <b>HW Libraries</b>: Eagle CAD libraries for the components used on Bluz DK.
 
 <b>Pin Mapping</b>: Pin mapping diagram for Bluz.
