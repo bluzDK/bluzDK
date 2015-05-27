@@ -22,3 +22,41 @@ All items are subject to change over time as the product is designed, so make su
 <b>HW Libraries</b>: Eagle CAD libraries for the components used on Bluz DK.
 
 <b>Pin Mapping</b>: Pin mapping diagram for Bluz.
+
+##Tech Specs
+<p>Hardware</p>
+<ul>
+    <li>Nordic Semiconductor nRF51822 SoC</li>
+    <li>ARM Cortex M0, 16MHz</li>
+    <li>32KB RAM, 256KB FLASH</li>
+    <li>Bluetooth LE 4.1</li>
+    <li>10 bit ADC</li>
+    <li>256KB External FLASH</li>
+    <li>3.0V-6V (3.3V compatible)</li>
+</ul>
+<p>Power Consumption</p>
+<ul>
+    <li>Connected/Standby: 60uA</li>
+    <li>Transmitting Max: 18mA</li>
+</ul>
+<p>Typical Range (subject to environment):</p>
+<ul>
+    <li>Indoors: 60-100 feet</li>
+    <li>Outdoors: 150-200 feet</li>
+</ul>
+<p>Software</p>
+<ul>
+    <li>Spark Web IDE</li>
+    <li>Wiring (same as Arduino)</li>
+    <li>Native C/C++ Programming</li>
+    <li>GCC ARM</li>
+    <li>Assembly (if you're that bold)</li>
+</ul>
+<p>Cloud</p>
+<ul>
+    <li>Spark Connected</li>
+    <li>IFTTT Integrated</li>
+    <li>IPv6 Support</li>
+    <li>Remote programmable through Spark Cloud</li>
+    <li>Control via REST API</li>
+</ul>
