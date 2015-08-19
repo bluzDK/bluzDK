@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -302,77 +302,67 @@
 element14 CAD Library consolidation.ulp
 at 22/03/2012 14:49:13</description>
 <packages>
-<package name="SOIC127P790X216-8N">
-<smd name="1" x="-3.6576" y="1.905" dx="1.4986" dy="0.5588" layer="1"/>
-<smd name="2" x="-3.6576" y="0.635" dx="1.4986" dy="0.5588" layer="1"/>
-<smd name="3" x="-3.6576" y="-0.635" dx="1.4986" dy="0.5588" layer="1"/>
-<smd name="4" x="-3.6576" y="-1.905" dx="1.4986" dy="0.5588" layer="1"/>
-<smd name="5" x="3.6576" y="-1.905" dx="1.4986" dy="0.5588" layer="1"/>
-<smd name="6" x="3.6576" y="-0.635" dx="1.4986" dy="0.5588" layer="1"/>
-<smd name="7" x="3.6576" y="0.635" dx="1.4986" dy="0.5588" layer="1"/>
-<smd name="8" x="3.6576" y="1.905" dx="1.4986" dy="0.5588" layer="1"/>
-<wire x1="-2.6924" y1="1.651" x2="-2.6924" y2="2.159" width="0" layer="51"/>
-<wire x1="-2.6924" y1="2.159" x2="-4.0386" y2="2.159" width="0" layer="51"/>
-<wire x1="-4.0386" y1="2.159" x2="-4.0386" y2="1.651" width="0" layer="51"/>
-<wire x1="-4.0386" y1="1.651" x2="-2.6924" y2="1.651" width="0" layer="51"/>
-<wire x1="-2.6924" y1="0.381" x2="-2.6924" y2="0.889" width="0" layer="51"/>
-<wire x1="-2.6924" y1="0.889" x2="-4.0386" y2="0.889" width="0" layer="51"/>
-<wire x1="-4.0386" y1="0.889" x2="-4.0386" y2="0.381" width="0" layer="51"/>
-<wire x1="-4.0386" y1="0.381" x2="-2.6924" y2="0.381" width="0" layer="51"/>
-<wire x1="-2.6924" y1="-0.889" x2="-2.6924" y2="-0.381" width="0" layer="51"/>
-<wire x1="-2.6924" y1="-0.381" x2="-4.0386" y2="-0.381" width="0" layer="51"/>
-<wire x1="-4.0386" y1="-0.381" x2="-4.0386" y2="-0.889" width="0" layer="51"/>
-<wire x1="-4.0386" y1="-0.889" x2="-2.6924" y2="-0.889" width="0" layer="51"/>
-<wire x1="-2.6924" y1="-2.159" x2="-2.6924" y2="-1.651" width="0" layer="51"/>
-<wire x1="-2.6924" y1="-1.651" x2="-4.0386" y2="-1.651" width="0" layer="51"/>
-<wire x1="-4.0386" y1="-1.651" x2="-4.0386" y2="-2.159" width="0" layer="51"/>
-<wire x1="-4.0386" y1="-2.159" x2="-2.6924" y2="-2.159" width="0" layer="51"/>
-<wire x1="2.6924" y1="-1.651" x2="2.6924" y2="-2.159" width="0" layer="51"/>
-<wire x1="2.6924" y1="-2.159" x2="4.0386" y2="-2.159" width="0" layer="51"/>
-<wire x1="4.0386" y1="-2.159" x2="4.0386" y2="-1.651" width="0" layer="51"/>
-<wire x1="4.0386" y1="-1.651" x2="2.6924" y2="-1.651" width="0" layer="51"/>
-<wire x1="2.6924" y1="-0.381" x2="2.6924" y2="-0.889" width="0" layer="51"/>
-<wire x1="2.6924" y1="-0.889" x2="4.0386" y2="-0.889" width="0" layer="51"/>
-<wire x1="4.0386" y1="-0.889" x2="4.0386" y2="-0.381" width="0" layer="51"/>
-<wire x1="4.0386" y1="-0.381" x2="2.6924" y2="-0.381" width="0" layer="51"/>
-<wire x1="2.6924" y1="0.889" x2="2.6924" y2="0.381" width="0" layer="51"/>
-<wire x1="2.6924" y1="0.381" x2="4.0386" y2="0.381" width="0" layer="51"/>
-<wire x1="4.0386" y1="0.381" x2="4.0386" y2="0.889" width="0" layer="51"/>
-<wire x1="4.0386" y1="0.889" x2="2.6924" y2="0.889" width="0" layer="51"/>
-<wire x1="2.6924" y1="2.159" x2="2.6924" y2="1.651" width="0" layer="51"/>
-<wire x1="2.6924" y1="1.651" x2="4.0386" y2="1.651" width="0" layer="51"/>
-<wire x1="4.0386" y1="1.651" x2="4.0386" y2="2.159" width="0" layer="51"/>
-<wire x1="4.0386" y1="2.159" x2="2.6924" y2="2.159" width="0" layer="51"/>
-<wire x1="-2.6924" y1="-2.6924" x2="2.6924" y2="-2.6924" width="0" layer="51"/>
-<wire x1="2.6924" y1="-2.6924" x2="2.6924" y2="2.6924" width="0" layer="51"/>
-<wire x1="2.6924" y1="2.6924" x2="0.3048" y2="2.6924" width="0" layer="51"/>
-<wire x1="0.3048" y1="2.6924" x2="-0.3048" y2="2.6924" width="0" layer="51"/>
-<wire x1="-0.3048" y1="2.6924" x2="-2.6924" y2="2.6924" width="0" layer="51"/>
-<wire x1="-2.6924" y1="2.6924" x2="-2.6924" y2="-2.6924" width="0" layer="51"/>
-<wire x1="0.3048" y1="2.6924" x2="-0.3048" y2="2.6924" width="0" layer="51" curve="-180"/>
-<text x="-4.4704" y="2.3368" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
-<wire x1="2.6924" y1="2.4384" x2="2.6924" y2="2.6924" width="0.1524" layer="21"/>
-<wire x1="2.6924" y1="1.1684" x2="2.6924" y2="1.3716" width="0.1524" layer="21"/>
-<wire x1="2.6924" y1="-0.1016" x2="2.6924" y2="0.1016" width="0.1524" layer="21"/>
-<wire x1="2.6924" y1="-1.3716" x2="2.6924" y2="-1.1684" width="0.1524" layer="21"/>
-<wire x1="-2.6924" y1="-2.4384" x2="-2.6924" y2="-2.6924" width="0.1524" layer="21"/>
-<wire x1="-2.6924" y1="-1.1684" x2="-2.6924" y2="-1.3716" width="0.1524" layer="21"/>
-<wire x1="-2.6924" y1="0.1016" x2="-2.6924" y2="-0.1016" width="0.1524" layer="21"/>
-<wire x1="-2.6924" y1="-2.6924" x2="2.6924" y2="-2.6924" width="0.1524" layer="21"/>
-<wire x1="2.6924" y1="-2.6924" x2="2.6924" y2="-2.4384" width="0.1524" layer="21"/>
-<wire x1="2.6924" y1="2.6924" x2="0.3048" y2="2.6924" width="0.1524" layer="21"/>
-<wire x1="0.3048" y1="2.6924" x2="-0.3048" y2="2.6924" width="0.1524" layer="21"/>
-<wire x1="-0.3048" y1="2.6924" x2="-2.6924" y2="2.6924" width="0.1524" layer="21"/>
-<wire x1="-2.6924" y1="2.6924" x2="-2.6924" y2="2.4384" width="0.1524" layer="21"/>
-<wire x1="-2.6924" y1="1.3716" x2="-2.6924" y2="1.1684" width="0.1524" layer="21"/>
-<wire x1="0.3048" y1="2.6924" x2="-0.3048" y2="2.6924" width="0.1524" layer="21" curve="-180"/>
-<text x="-4.4704" y="2.3368" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<package name="SOIC127P600X175-8N">
+<smd name="1" x="-2.4638" y="1.905" dx="1.9812" dy="0.5588" layer="1"/>
+<smd name="2" x="-2.4638" y="0.635" dx="1.9812" dy="0.5588" layer="1"/>
+<smd name="3" x="-2.4638" y="-0.635" dx="1.9812" dy="0.5588" layer="1"/>
+<smd name="4" x="-2.4638" y="-1.905" dx="1.9812" dy="0.5588" layer="1"/>
+<smd name="5" x="2.4638" y="-1.905" dx="1.9812" dy="0.5588" layer="1"/>
+<smd name="6" x="2.4638" y="-0.635" dx="1.9812" dy="0.5588" layer="1"/>
+<smd name="7" x="2.4638" y="0.635" dx="1.9812" dy="0.5588" layer="1"/>
+<smd name="8" x="2.4638" y="1.905" dx="1.9812" dy="0.5588" layer="1"/>
+<wire x1="-2.0066" y1="1.651" x2="-2.0066" y2="2.159" width="0" layer="51"/>
+<wire x1="-2.0066" y1="2.159" x2="-3.0988" y2="2.159" width="0" layer="51"/>
+<wire x1="-3.0988" y1="2.159" x2="-3.0988" y2="1.651" width="0" layer="51"/>
+<wire x1="-3.0988" y1="1.651" x2="-2.0066" y2="1.651" width="0" layer="51"/>
+<wire x1="-2.0066" y1="0.381" x2="-2.0066" y2="0.889" width="0" layer="51"/>
+<wire x1="-2.0066" y1="0.889" x2="-3.0988" y2="0.889" width="0" layer="51"/>
+<wire x1="-3.0988" y1="0.889" x2="-3.0988" y2="0.381" width="0" layer="51"/>
+<wire x1="-3.0988" y1="0.381" x2="-2.0066" y2="0.381" width="0" layer="51"/>
+<wire x1="-2.0066" y1="-0.889" x2="-2.0066" y2="-0.381" width="0" layer="51"/>
+<wire x1="-2.0066" y1="-0.381" x2="-3.0988" y2="-0.381" width="0" layer="51"/>
+<wire x1="-3.0988" y1="-0.381" x2="-3.0988" y2="-0.889" width="0" layer="51"/>
+<wire x1="-3.0988" y1="-0.889" x2="-2.0066" y2="-0.889" width="0" layer="51"/>
+<wire x1="-2.0066" y1="-2.159" x2="-2.0066" y2="-1.651" width="0" layer="51"/>
+<wire x1="-2.0066" y1="-1.651" x2="-3.0988" y2="-1.651" width="0" layer="51"/>
+<wire x1="-3.0988" y1="-1.651" x2="-3.0988" y2="-2.159" width="0" layer="51"/>
+<wire x1="-3.0988" y1="-2.159" x2="-2.0066" y2="-2.159" width="0" layer="51"/>
+<wire x1="2.0066" y1="-1.651" x2="2.0066" y2="-2.159" width="0" layer="51"/>
+<wire x1="2.0066" y1="-2.159" x2="3.0988" y2="-2.159" width="0" layer="51"/>
+<wire x1="3.0988" y1="-2.159" x2="3.0988" y2="-1.651" width="0" layer="51"/>
+<wire x1="3.0988" y1="-1.651" x2="2.0066" y2="-1.651" width="0" layer="51"/>
+<wire x1="2.0066" y1="-0.381" x2="2.0066" y2="-0.889" width="0" layer="51"/>
+<wire x1="2.0066" y1="-0.889" x2="3.0988" y2="-0.889" width="0" layer="51"/>
+<wire x1="3.0988" y1="-0.889" x2="3.0988" y2="-0.381" width="0" layer="51"/>
+<wire x1="3.0988" y1="-0.381" x2="2.0066" y2="-0.381" width="0" layer="51"/>
+<wire x1="2.0066" y1="0.889" x2="2.0066" y2="0.381" width="0" layer="51"/>
+<wire x1="2.0066" y1="0.381" x2="3.0988" y2="0.381" width="0" layer="51"/>
+<wire x1="3.0988" y1="0.381" x2="3.0988" y2="0.889" width="0" layer="51"/>
+<wire x1="3.0988" y1="0.889" x2="2.0066" y2="0.889" width="0" layer="51"/>
+<wire x1="2.0066" y1="2.159" x2="2.0066" y2="1.651" width="0" layer="51"/>
+<wire x1="2.0066" y1="1.651" x2="3.0988" y2="1.651" width="0" layer="51"/>
+<wire x1="3.0988" y1="1.651" x2="3.0988" y2="2.159" width="0" layer="51"/>
+<wire x1="3.0988" y1="2.159" x2="2.0066" y2="2.159" width="0" layer="51"/>
+<wire x1="-2.0066" y1="-2.4892" x2="2.0066" y2="-2.4892" width="0" layer="51"/>
+<wire x1="2.0066" y1="-2.4892" x2="2.0066" y2="2.4892" width="0" layer="51"/>
+<wire x1="2.0066" y1="2.4892" x2="0.3048" y2="2.4892" width="0" layer="51"/>
+<wire x1="0.3048" y1="2.4892" x2="-0.3048" y2="2.4892" width="0" layer="51"/>
+<wire x1="-0.3048" y1="2.4892" x2="-2.0066" y2="2.4892" width="0" layer="51"/>
+<wire x1="-2.0066" y1="2.4892" x2="-2.0066" y2="-2.4892" width="0" layer="51"/>
+<wire x1="0.3048" y1="2.4892" x2="-0.3048" y2="2.4892" width="0" layer="51" curve="-180"/>
+<text x="-3.302" y="2.3368" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
+<wire x1="-1.3716" y1="-2.4892" x2="1.3716" y2="-2.4892" width="0.1524" layer="21"/>
+<wire x1="1.3716" y1="2.4892" x2="0.3048" y2="2.4892" width="0.1524" layer="21"/>
+<wire x1="0.3048" y1="2.4892" x2="-0.3048" y2="2.4892" width="0.1524" layer="21"/>
+<wire x1="-0.3048" y1="2.4892" x2="-1.3716" y2="2.4892" width="0.1524" layer="21"/>
+<wire x1="0.3048" y1="2.4892" x2="-0.3048" y2="2.4892" width="0.1524" layer="21" curve="-180"/>
+<text x="-3.302" y="2.3368" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <text x="-3.4544" y="4.445" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-3.4544" y="-5.715" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
-<symbol name="SST25VF016B-50-4I-S2AF">
+<symbol name="SST25VF010A-33-4I-SAE">
 <pin name="VDD" x="-17.78" y="7.62" length="middle" direction="pwr"/>
 <pin name="SI" x="-17.78" y="2.54" length="middle" direction="in"/>
 <pin name="SCK" x="-17.78" y="0" length="middle" direction="in"/>
@@ -386,17 +376,17 @@ at 22/03/2012 14:49:13</description>
 <wire x1="12.7" y1="-17.78" x2="12.7" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="12.7" y1="12.7" x2="-12.7" y2="12.7" width="0.4064" layer="94"/>
 <text x="-5.3594" y="16.7386" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-3.6576" y="-22.6314" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="-4.0386" y="-23.5458" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SST25VF016B-50-4I-S2AF" prefix="U">
-<description>16 Mbit SPI Serial Flash</description>
+<deviceset name="SST25VF010A-33-4I-SAE" prefix="U">
+<description>1 Mbit SPI Serial Flash</description>
 <gates>
-<gate name="A" symbol="SST25VF016B-50-4I-S2AF" x="0" y="0"/>
+<gate name="A" symbol="SST25VF010A-33-4I-SAE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOIC127P790X216-8N">
+<device name="" package="SOIC127P600X175-8N">
 <connects>
 <connect gate="A" pin="CE" pad="1"/>
 <connect gate="A" pin="HOLD" pad="7"/>
@@ -409,9 +399,9 @@ at 22/03/2012 14:49:13</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MPN" value="SST25VF016B-50-4I-S2AF" constant="no"/>
-<attribute name="OC_FARNELL" value="1368695" constant="no"/>
-<attribute name="OC_NEWARK" value="82R4471" constant="no"/>
+<attribute name="MPN" value="SST25VF010A-33-4I-SAE" constant="no"/>
+<attribute name="OC_FARNELL" value="1368686" constant="no"/>
+<attribute name="OC_NEWARK" value="54M1121" constant="no"/>
 <attribute name="PACKAGE" value="SOIC-8" constant="no"/>
 <attribute name="SUPPLIER" value="SILICON STORAGE TECHNOLOGY" constant="no"/>
 </technology>
@@ -4265,7 +4255,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </classes>
 <parts>
 <part name="U1" library="MDBT40" deviceset="MDBT40" device="SMD"/>
-<part name="U2" library="Silicon_Storage_Tech_By_element14_Batch_1" deviceset="SST25VF016B-50-4I-S2AF" device="" value=""/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="1uF"/>
@@ -4274,7 +4263,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603"/>
+<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -4297,7 +4286,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES"/>
+<part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="U3" library="Microchip_By_element14_Batch_1" deviceset="MCP1700T-3302E/TT" device=""/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="1uF"/>
@@ -4305,6 +4294,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
+<part name="U4" library="Silicon_Storage_Tech_By_element14_Batch_1" deviceset="SST25VF010A-33-4I-SAE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4315,13 +4305,12 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <text x="218.44" y="53.34" size="2.54" layer="95">Headers</text>
 <text x="213.36" y="111.76" size="2.54" layer="95">MDBT40-256R</text>
 <text x="200.66" y="6.35" size="5.08" layer="94">Eric Ely</text>
-<text x="269.494" y="6.35" size="3.81" layer="94">A</text>
+<text x="269.494" y="6.35" size="3.81" layer="94">C</text>
 <text x="195.834" y="16.764" size="3.81" layer="94">Bluz DK v2</text>
 <text x="189.992" y="1.016" size="2.54" layer="94">July 1, 2015</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="220.98" y="177.8"/>
-<instance part="U2" gate="A" x="63.5" y="139.7"/>
 <instance part="GND1" gate="1" x="27.94" y="175.26"/>
 <instance part="C1" gate="G$1" x="17.78" y="187.96"/>
 <instance part="C2" gate="G$1" x="99.06" y="187.96"/>
@@ -4364,6 +4353,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <attribute name="SHEET" x="264.16" y="1.27" size="2.54" layer="94" font="vector"/>
 </instance>
 <instance part="SUPPLY6" gate="G$1" x="109.22" y="205.74"/>
+<instance part="U4" gate="A" x="63.5" y="139.7"/>
 </instances>
 <busses>
 </busses>
@@ -4375,12 +4365,12 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="99.06" y1="177.8" x2="99.06" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U2" gate="A" pin="VSS"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="38.1" y1="127" x2="45.72" y2="127" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="127" x2="7.62" y2="127" width="0.1524" layer="91"/>
 <junction x="38.1" y="127"/>
 <pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="U4" gate="A" pin="VSS"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND@1"/>
@@ -4480,16 +4470,15 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </segment>
 <segment>
 <pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
-<pinref part="U2" gate="A" pin="VDD"/>
 <wire x1="7.62" y1="147.32" x2="25.4" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="147.32" x2="45.72" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="147.32" x2="25.4" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="134.62" x2="25.4" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="132.08" x2="45.72" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="132.08" x2="48.26" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="134.62" x2="45.72" y2="134.62" width="0.1524" layer="91"/>
 <junction x="25.4" y="134.62"/>
 <pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="45.72" y1="132.08" x2="48.26" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="134.62" x2="45.72" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="134.62" x2="25.4" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="134.62" x2="7.62" y2="137.16" width="0.1524" layer="91"/>
 <junction x="7.62" y="147.32"/>
@@ -4497,9 +4486,10 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="7.62" y1="137.16" x2="7.62" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="137.16" x2="7.62" y2="137.16" width="0.1524" layer="91"/>
 <junction x="7.62" y="137.16"/>
-<pinref part="U2" gate="A" pin="WP"/>
+<pinref part="U4" gate="A" pin="VDD"/>
+<pinref part="U4" gate="A" pin="WP"/>
 <junction x="45.72" y="134.62"/>
-<pinref part="U2" gate="A" pin="HOLD"/>
+<pinref part="U4" gate="A" pin="HOLD"/>
 <junction x="45.72" y="132.08"/>
 </segment>
 <segment>
@@ -4539,10 +4529,10 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </net>
 <net name="SPI_SS" class="0">
 <segment>
-<pinref part="U2" gate="A" pin="CE"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="137.16" x2="22.86" y2="137.16" width="0.1524" layer="91"/>
 <label x="33.02" y="137.16" size="1.778" layer="95"/>
+<pinref part="U4" gate="A" pin="CE"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="P0.15"/>
@@ -4553,9 +4543,9 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </net>
 <net name="SPI_MOSI" class="0">
 <segment>
-<pinref part="U2" gate="A" pin="SI"/>
 <wire x1="45.72" y1="142.24" x2="35.56" y2="142.24" width="0.1524" layer="91"/>
 <label x="33.02" y="142.24" size="1.778" layer="95"/>
+<pinref part="U4" gate="A" pin="SI"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="P0.09"/>
@@ -4565,9 +4555,9 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </net>
 <net name="SPI_SCK" class="0">
 <segment>
-<pinref part="U2" gate="A" pin="SCK"/>
 <wire x1="45.72" y1="139.7" x2="35.56" y2="139.7" width="0.1524" layer="91"/>
 <label x="33.02" y="139.7" size="1.778" layer="95"/>
+<pinref part="U4" gate="A" pin="SCK"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="P0.10"/>
@@ -4577,9 +4567,9 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </net>
 <net name="SPI_MISO" class="0">
 <segment>
-<pinref part="U2" gate="A" pin="SO"/>
 <wire x1="81.28" y1="147.32" x2="93.98" y2="147.32" width="0.1524" layer="91"/>
 <label x="83.82" y="147.32" size="1.778" layer="95"/>
+<pinref part="U4" gate="A" pin="SO"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="P0.14"/>
