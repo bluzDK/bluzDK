@@ -4270,7 +4270,7 @@ CLVBA-FKA</description>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value=".1uF"/>
+<part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -4278,11 +4278,11 @@ CLVBA-FKA</description>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="Q1" library="crystal" deviceset="FC-12M" device=""/>
-<part name="C5" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="12pF"/>
+<part name="C7" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="12pF"/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="12pF"/>
-<part name="BTN" library="Spark" deviceset="TAC_SWITCH" device="SMD"/>
-<part name="RST" library="Spark" deviceset="TAC_SWITCH" device="SMD"/>
-<part name="LED2" library="led" deviceset="LED" device="CHIP-LED0603"/>
+<part name="S1" library="Spark" deviceset="TAC_SWITCH" device="SMD"/>
+<part name="S2" library="Spark" deviceset="TAC_SWITCH" device="SMD"/>
+<part name="L2" library="led" deviceset="LED" device="CHIP-LED0603"/>
 <part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="4.7K"/>
 <part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="4.7K"/>
 <part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="4.7K"/>
@@ -4294,13 +4294,13 @@ CLVBA-FKA</description>
 <part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="U3" library="Microchip_By_element14_Batch_1" deviceset="MCP1700T-3302E/TT" device=""/>
-<part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="1uF"/>
-<part name="C7" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value=".1uF"/>
+<part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="1uF"/>
+<part name="C5" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
-<part name="U4" library="Silicon_Storage_Tech_By_element14_Batch_1" deviceset="SST25VF010A-33-4I-SAE" device=""/>
-<part name="LED1" library="bluze_libr" deviceset="TOPLED-3" device="PLCC"/>
+<part name="U2" library="Silicon_Storage_Tech_By_element14_Batch_1" deviceset="SST25VF010A-33-4I-SAE" device=""/>
+<part name="L1" library="bluze_libr" deviceset="TOPLED-3" device="PLCC"/>
 <part name="JP2" library="SparkFun-Connectors" deviceset="M12" device="1X12_NO_SILK_KIT"/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M12" device="1X12_NO_SILK_KIT"/>
 </parts>
@@ -4326,7 +4326,7 @@ CLVBA-FKA</description>
 <instance part="SUPPLY1" gate="G$1" x="99.06" y="205.74"/>
 <instance part="SUPPLY2" gate="G$1" x="7.62" y="147.32"/>
 <instance part="GND3" gate="1" x="38.1" y="124.46"/>
-<instance part="C3" gate="G$1" x="7.62" y="129.54"/>
+<instance part="C4" gate="G$1" x="7.62" y="129.54"/>
 <instance part="R4" gate="G$1" x="17.78" y="137.16"/>
 <instance part="SUPPLY3" gate="G$1" x="147.32" y="195.58"/>
 <instance part="GND4" gate="1" x="187.96" y="193.04"/>
@@ -4334,11 +4334,11 @@ CLVBA-FKA</description>
 <instance part="GND6" gate="1" x="154.94" y="144.78"/>
 <instance part="GND7" gate="1" x="274.32" y="198.12"/>
 <instance part="Q1" gate="G$1" x="165.1" y="160.02"/>
-<instance part="C5" gate="G$1" x="162.56" y="152.4"/>
+<instance part="C7" gate="G$1" x="162.56" y="152.4"/>
 <instance part="C6" gate="G$1" x="167.64" y="152.4"/>
-<instance part="BTN" gate="S" x="27.94" y="78.74"/>
-<instance part="RST" gate="S" x="76.2" y="78.74"/>
-<instance part="LED2" gate="G$1" x="35.56" y="30.48" rot="R270"/>
+<instance part="S1" gate="S" x="27.94" y="78.74"/>
+<instance part="S2" gate="S" x="76.2" y="78.74"/>
+<instance part="L2" gate="G$1" x="35.56" y="30.48" rot="R270"/>
 <instance part="R1" gate="G$1" x="66.04" y="50.8"/>
 <instance part="R2" gate="G$1" x="53.34" y="45.72"/>
 <instance part="R3" gate="G$1" x="66.04" y="40.64"/>
@@ -4350,16 +4350,16 @@ CLVBA-FKA</description>
 <instance part="R6" gate="G$1" x="99.06" y="83.82" rot="R90"/>
 <instance part="SUPPLY5" gate="G$1" x="99.06" y="91.44"/>
 <instance part="U3" gate="A" x="55.88" y="198.12"/>
-<instance part="C4" gate="G$1" x="154.94" y="172.72"/>
-<instance part="C7" gate="G$1" x="193.04" y="127"/>
+<instance part="C3" gate="G$1" x="154.94" y="172.72"/>
+<instance part="C5" gate="G$1" x="193.04" y="127"/>
 <instance part="GND12" gate="1" x="193.04" y="116.84"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="177.8" y="0" smashed="yes">
 <attribute name="SHEET" x="264.16" y="1.27" size="2.54" layer="94" font="vector"/>
 </instance>
 <instance part="SUPPLY6" gate="G$1" x="109.22" y="205.74"/>
-<instance part="U4" gate="A" x="63.5" y="139.7"/>
-<instance part="LED1" gate="G$1" x="35.56" y="45.72" rot="R90"/>
+<instance part="U2" gate="A" x="63.5" y="139.7"/>
+<instance part="L1" gate="G$1" x="35.56" y="45.72" rot="R90"/>
 <instance part="JP2" gate="G$1" x="256.54" y="73.66" rot="R180"/>
 <instance part="JP1" gate="G$1" x="213.36" y="73.66" rot="R180"/>
 </instances>
@@ -4377,8 +4377,8 @@ CLVBA-FKA</description>
 <wire x1="38.1" y1="127" x2="45.72" y2="127" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="127" x2="7.62" y2="127" width="0.1524" layer="91"/>
 <junction x="38.1" y="127"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-<pinref part="U4" gate="A" pin="VSS"/>
+<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="U2" gate="A" pin="VSS"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND@1"/>
@@ -4394,7 +4394,7 @@ CLVBA-FKA</description>
 <pinref part="U1" gate="G$1" pin="GND@3"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="154.94" y1="147.32" x2="162.56" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="162.56" y1="147.32" x2="167.64" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="147.32" x2="205.74" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="149.86" x2="162.56" y2="147.32" width="0.1524" layer="91"/>
@@ -4402,7 +4402,7 @@ CLVBA-FKA</description>
 <pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="167.64" y1="149.86" x2="167.64" y2="147.32" width="0.1524" layer="91"/>
 <junction x="167.64" y="147.32"/>
-<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="154.94" y1="170.18" x2="154.94" y2="147.32" width="0.1524" layer="91"/>
 <junction x="154.94" y="147.32"/>
 </segment>
@@ -4424,19 +4424,19 @@ CLVBA-FKA</description>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="15.24" y1="25.4" x2="15.24" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="L2" gate="G$1" pin="C"/>
 <wire x1="15.24" y1="30.48" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="15.24" y1="73.66" x2="15.24" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="BTN" gate="S" pin="2"/>
+<pinref part="S1" gate="S" pin="2"/>
 <wire x1="15.24" y1="76.2" x2="22.86" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="63.5" y1="71.12" x2="63.5" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="RST" gate="S" pin="2"/>
+<pinref part="S2" gate="S" pin="2"/>
 <wire x1="63.5" y1="76.2" x2="71.12" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -4451,7 +4451,7 @@ CLVBA-FKA</description>
 <pinref part="U3" gate="A" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="C5" gate="G$1" pin="2"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 <junction x="193.04" y="119.38"/>
 <pinref part="GND12" gate="1" pin="GND"/>
@@ -4484,7 +4484,7 @@ CLVBA-FKA</description>
 <wire x1="25.4" y1="134.62" x2="25.4" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="132.08" x2="45.72" y2="132.08" width="0.1524" layer="91"/>
 <junction x="25.4" y="134.62"/>
-<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="132.08" x2="48.26" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="134.62" x2="45.72" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="134.62" x2="25.4" y2="134.62" width="0.1524" layer="91"/>
@@ -4494,10 +4494,10 @@ CLVBA-FKA</description>
 <wire x1="7.62" y1="137.16" x2="7.62" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="137.16" x2="7.62" y2="137.16" width="0.1524" layer="91"/>
 <junction x="7.62" y="137.16"/>
-<pinref part="U4" gate="A" pin="VDD"/>
-<pinref part="U4" gate="A" pin="WP"/>
+<pinref part="U2" gate="A" pin="VDD"/>
+<pinref part="U2" gate="A" pin="WP"/>
 <junction x="45.72" y="134.62"/>
-<pinref part="U4" gate="A" pin="HOLD"/>
+<pinref part="U2" gate="A" pin="HOLD"/>
 <junction x="45.72" y="132.08"/>
 </segment>
 <segment>
@@ -4508,12 +4508,12 @@ CLVBA-FKA</description>
 <pinref part="U1" gate="G$1" pin="VDD"/>
 <wire x1="193.04" y1="132.08" x2="208.28" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="132.08" x2="208.28" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="1"/>
+<pinref part="C5" gate="G$1" pin="1"/>
 <junction x="193.04" y="132.08"/>
 <pinref part="U1" gate="G$1" pin="AVDD"/>
 <wire x1="193.04" y1="182.88" x2="154.94" y2="182.88" width="0.1524" layer="91"/>
 <junction x="147.32" y="182.88"/>
-<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="154.94" y1="182.88" x2="147.32" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="177.8" x2="154.94" y2="182.88" width="0.1524" layer="91"/>
 <junction x="154.94" y="182.88"/>
@@ -4522,7 +4522,7 @@ CLVBA-FKA</description>
 <wire x1="30.48" y1="40.64" x2="15.24" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="40.64" x2="15.24" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="SUPPLY4" gate="G$1" pin="VCC"/>
-<pinref part="LED1" gate="G$1" pin="A2"/>
+<pinref part="L1" gate="G$1" pin="A2"/>
 </segment>
 <segment>
 <pinref part="SUPPLY5" gate="G$1" pin="VCC"/>
@@ -4540,7 +4540,7 @@ CLVBA-FKA</description>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="137.16" x2="22.86" y2="137.16" width="0.1524" layer="91"/>
 <label x="33.02" y="137.16" size="1.778" layer="95"/>
-<pinref part="U4" gate="A" pin="CE"/>
+<pinref part="U2" gate="A" pin="CE"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="P0.15"/>
@@ -4553,7 +4553,7 @@ CLVBA-FKA</description>
 <segment>
 <wire x1="45.72" y1="142.24" x2="35.56" y2="142.24" width="0.1524" layer="91"/>
 <label x="33.02" y="142.24" size="1.778" layer="95"/>
-<pinref part="U4" gate="A" pin="SI"/>
+<pinref part="U2" gate="A" pin="SI"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="P0.09"/>
@@ -4565,7 +4565,7 @@ CLVBA-FKA</description>
 <segment>
 <wire x1="45.72" y1="139.7" x2="35.56" y2="139.7" width="0.1524" layer="91"/>
 <label x="33.02" y="139.7" size="1.778" layer="95"/>
-<pinref part="U4" gate="A" pin="SCK"/>
+<pinref part="U2" gate="A" pin="SCK"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="P0.10"/>
@@ -4577,7 +4577,7 @@ CLVBA-FKA</description>
 <segment>
 <wire x1="81.28" y1="147.32" x2="93.98" y2="147.32" width="0.1524" layer="91"/>
 <label x="83.82" y="147.32" size="1.778" layer="95"/>
-<pinref part="U4" gate="A" pin="SO"/>
+<pinref part="U2" gate="A" pin="SO"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="P0.14"/>
@@ -4591,7 +4591,7 @@ CLVBA-FKA</description>
 <wire x1="193.04" y1="167.64" x2="162.56" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="1"/>
 <wire x1="162.56" y1="167.64" x2="162.56" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="C7" gate="G$1" pin="1"/>
 <junction x="162.56" y="157.48"/>
 <wire x1="162.56" y1="157.48" x2="162.56" y2="160.02" width="0.1524" layer="91"/>
 </segment>
@@ -4750,7 +4750,7 @@ CLVBA-FKA</description>
 <pinref part="JP2" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="RST" gate="S" pin="4"/>
+<pinref part="S2" gate="S" pin="4"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="76.2" x2="99.06" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="76.2" x2="111.76" y2="76.2" width="0.1524" layer="91"/>
@@ -4867,7 +4867,7 @@ CLVBA-FKA</description>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="L2" gate="G$1" pin="A"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="30.48" x2="38.1" y2="30.48" width="0.1524" layer="91"/>
 </segment>
@@ -4876,21 +4876,21 @@ CLVBA-FKA</description>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="40.64" x2="38.1" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="LED1" gate="G$1" pin="CRED"/>
+<pinref part="L1" gate="G$1" pin="CRED"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="45.72" x2="38.1" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="LED1" gate="G$1" pin="CBLUE"/>
+<pinref part="L1" gate="G$1" pin="CBLUE"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="50.8" x2="38.1" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="LED1" gate="G$1" pin="CGREEN"/>
+<pinref part="L1" gate="G$1" pin="CGREEN"/>
 </segment>
 </net>
 <net name="LED4" class="0">
@@ -4931,7 +4931,7 @@ CLVBA-FKA</description>
 </net>
 <net name="BTN" class="0">
 <segment>
-<pinref part="BTN" gate="S" pin="4"/>
+<pinref part="S1" gate="S" pin="4"/>
 <wire x1="33.02" y1="76.2" x2="45.72" y2="76.2" width="0.1524" layer="91"/>
 <label x="40.64" y="76.2" size="1.778" layer="95"/>
 </segment>
