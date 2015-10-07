@@ -76,6 +76,11 @@ if mode == "test":
     print out
     print ""
 
+    f = open('provisioned_boards.txt', 'a')
+    f.write(hwID)
+    f.write('\n')
+    f.close()
+
 
 print "---------------------------------------"
 print "Wiping Hardware Flash"
